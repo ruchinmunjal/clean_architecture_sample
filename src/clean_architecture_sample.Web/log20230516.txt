@@ -1,0 +1,30 @@
+2023-05-16 08:15:31.074 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/ - -
+2023-05-16 08:15:31.207 +01:00 [WRN] Failed to determine the https port for redirect.
+2023-05-16 08:15:31.245 +01:00 [INF] Executing endpoint 'clean_architecture_sample.Web.Controllers.HomeController.Index (clean_architecture_sample.Web)'
+2023-05-16 08:15:31.256 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller clean_architecture_sample.Web.Controllers.HomeController (clean_architecture_sample.Web).
+2023-05-16 08:15:31.275 +01:00 [INF] Executing ViewResult, running view Index.
+2023-05-16 08:15:31.424 +01:00 [INF] Executed ViewResult - view Index executed in 155.0238ms.
+2023-05-16 08:15:31.427 +01:00 [INF] Executed action clean_architecture_sample.Web.Controllers.HomeController.Index (clean_architecture_sample.Web) in 169.4619ms
+2023-05-16 08:15:31.427 +01:00 [INF] Executed endpoint 'clean_architecture_sample.Web.Controllers.HomeController.Index (clean_architecture_sample.Web)'
+2023-05-16 08:15:31.438 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/ - - - 200 - text/html;+charset=utf-8 371.2772ms
+2023-05-16 08:15:31.662 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/lib/jquery/dist/jquery.min.js - -
+2023-05-16 08:15:31.662 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/clean_architecture_sample.Web.styles.css?v=v5t30Yv_nprXfbe0SwKM8HVo5lJ1OaqVR2yoSDgjJ2k - -
+2023-05-16 08:15:31.663 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-05-16 08:15:31.670 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-05-16 08:15:31.724 +01:00 [INF] Sending file. Request path: '/clean_architecture_sample.Web.styles.css'. Physical path: '/home/mia/batcave/dotnet/clean_architecture_sample/src/clean_architecture_sample.Web/obj/Debug/net7.0/scopedcss/bundle/clean_architecture_sample.Web.styles.css'
+2023-05-16 08:15:31.726 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/home/mia/batcave/dotnet/clean_architecture_sample/src/clean_architecture_sample.Web/wwwroot/css/site.css'
+2023-05-16 08:15:31.729 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 65.6581ms
+2023-05-16 08:15:31.728 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/clean_architecture_sample.Web.styles.css?v=v5t30Yv_nprXfbe0SwKM8HVo5lJ1OaqVR2yoSDgjJ2k - - - 200 1097 text/css 65.4623ms
+2023-05-16 08:15:31.732 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-05-16 08:15:31.735 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-05-16 08:15:31.736 +01:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/home/mia/batcave/dotnet/clean_architecture_sample/src/clean_architecture_sample.Web/wwwroot/js/site.js'
+2023-05-16 08:15:31.736 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 1.3156ms
+2023-05-16 08:15:31.745 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/home/mia/batcave/dotnet/clean_architecture_sample/src/clean_architecture_sample.Web/wwwroot/lib/jquery/dist/jquery.min.js'
+2023-05-16 08:15:31.748 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/home/mia/batcave/dotnet/clean_architecture_sample/src/clean_architecture_sample.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2023-05-16 08:15:31.753 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 text/javascript 19.7711ms
+2023-05-16 08:15:31.753 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/lib/jquery/dist/jquery.min.js - - - 200 89478 text/javascript 89.9475ms
+2023-05-16 08:15:31.756 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/home/mia/batcave/dotnet/clean_architecture_sample/src/clean_architecture_sample.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2023-05-16 08:15:31.760 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 91.8483ms
+2023-05-16 08:15:31.882 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/favicon.ico - -
+2023-05-16 08:15:31.886 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/home/mia/batcave/dotnet/clean_architecture_sample/src/clean_architecture_sample.Web/wwwroot/favicon.ico'
+2023-05-16 08:15:31.886 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/favicon.ico - - - 200 5430 image/x-icon 4.8929ms
